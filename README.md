@@ -7,17 +7,17 @@ The blueprints to development, response to the environment, and cellular functio
 ![](graphs/Figure_2.png)
 
 ## Software dependencies
-[BWA MEM](http://bio-bwa.sourceforge.net/bwa.shtml)
-[SAMtools](http://www.htslib.org)
-[BEDtools](https://bedtools.readthedocs.io/en/latest/)
-[SRA-toolkit](https://github.com/ncbi/sra-tools)
-[fastp](https://github.com/OpenGene/fastp)
-[MACS2](https://pypi.org/project/MACS2/)
-[UCSC binaries](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/)
-[tabix](http://www.htslib.org/doc/tabix.html)
-[IGV](https://software.broadinstitute.org/software/igv)
-[MEME](https://meme-suite.org/meme/index.html)
-[CrossMap](http://crossmap.sourceforge.net)
+[BWA MEM](http://bio-bwa.sourceforge.net/bwa.shtml)\
+[SAMtools](http://www.htslib.org)\
+[BEDtools](https://bedtools.readthedocs.io/en/latest/)\
+[SRA-toolkit](https://github.com/ncbi/sra-tools)\
+[fastp](https://github.com/OpenGene/fastp)\
+[MACS2](https://pypi.org/project/MACS2/)\
+[UCSC binaries](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/)\
+[tabix](http://www.htslib.org/doc/tabix.html)\
+[IGV](https://software.broadinstitute.org/software/igv)\
+[MEME](https://meme-suite.org/meme/index.html)\
+[CrossMap](http://crossmap.sourceforge.net)\
 [DeepTools](https://deeptools.readthedocs.io/en/develop/index.html)
 
 ## Input data
