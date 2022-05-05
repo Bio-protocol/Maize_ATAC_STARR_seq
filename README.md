@@ -5,18 +5,31 @@
 The blueprints to development, response to the environment, and cellular function are largely the manifestation of distinct gene expression programs controlled by the spatiotemporal activity of cis-regulatory elements. Although biochemical methods for identifying accessible chromatin – a hallmark of cis-regulatory elements – have been developed, approaches capable of measuring and quantifying cis-regulatory activity are only beginning to be realized. Massively Parallel Reporter Assays coupled to chromatin accessibility profiling presents a high-throughput solution for testing the transcription activating capacity of millions of putatively regulatory DNA sequences. However, clear computational pipelines for analyzing these high-throughput sequencing-based reporter assays are lacking. In this protocol, I layout and rationalize a computational framework for the processing and analysis of Assay for Transposase Accessible Chromatin profiling followed by Self-Transcribed Active Regulatory Region sequencing (ATAC-STARR-seq) data from a recent study in Zea mays. The approach described herein can be adapted to other sequencing-based reporter assays and it largely agnostic to the model organism.   
 
 
+![](graphs/Figure_2.png)
+
 ## Software dependencies
 [BWA MEM](http://bio-bwa.sourceforge.net/bwa.shtml)
+
 [SAMtools](http://www.htslib.org)
+
 [BEDtools](https://bedtools.readthedocs.io/en/latest/)
+
 [SRA-toolkit](https://github.com/ncbi/sra-tools)
+
 [fastp](https://github.com/OpenGene/fastp)
+
 [MACS2](https://pypi.org/project/MACS2/)
+
 [UCSC binaries](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/)
+
 [tabix](http://www.htslib.org/doc/tabix.html)
+
 [IGV](https://software.broadinstitute.org/software/igv)
+
 [MEME](https://meme-suite.org/meme/index.html)
+
 [CrossMap](http://crossmap.sourceforge.net)
+
 [DeepTools](https://deeptools.readthedocs.io/en/develop/index.html)
 
 
