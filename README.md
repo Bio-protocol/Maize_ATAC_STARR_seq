@@ -9,36 +9,23 @@ The blueprints to development, response to the environment, and cellular functio
 
 ## Software dependencies
 [BWA MEM](http://bio-bwa.sourceforge.net/bwa.shtml)
-
 [SAMtools](http://www.htslib.org)
-
 [BEDtools](https://bedtools.readthedocs.io/en/latest/)
-
 [SRA-toolkit](https://github.com/ncbi/sra-tools)
-
 [fastp](https://github.com/OpenGene/fastp)
-
 [MACS2](https://pypi.org/project/MACS2/)
-
 [UCSC binaries](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/)
-
 [tabix](http://www.htslib.org/doc/tabix.html)
-
 [IGV](https://software.broadinstitute.org/software/igv)
-
 [MEME](https://meme-suite.org/meme/index.html)
-
 [CrossMap](http://crossmap.sourceforge.net)
-
 [DeepTools](https://deeptools.readthedocs.io/en/develop/index.html)
-
 
 ## Input data
 The computational pipeline uses paired-end sequencing data from an ATAC-STARR-seq experiment performed on maize protoplasts (Ricci et al., 2019). The ATAC-STARR-seq experiment consisted of a DNA input (ATAC-seq library) and a mRNA readout (self-transcribed regulatory regions) to identify genomic regions exhibiting transcription-activating regulatory activity. 
 
 1.	Transfected ATAC-seq DNA-input [FASTQ](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10964904)
 2.	Transcribed ATAC-seq mRNA [FASTQ](https://www.ncbi.nlm.nih.gov/sra/?term=SRR10964905)
-
 
 ## Procedure
 Additional details can be found in [paper](https://bio-protocol.org/default.aspx).
