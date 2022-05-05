@@ -3,13 +3,13 @@
 ## submission properties
 
 #SBATCH --partition=batch
-#SBATCH --job-name=STEP07_identify_TFBS
+#SBATCH --job-name=STEP08_identify_TFBS
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=0-24:00:00
 #SBATCH --mem=100gb
-#SBATCH --output=LOGS_step07_identify_TFBS.%j.log
-#SBATCH --error=LOGS_step07_identify_TFBS.%j.err
+#SBATCH --output=LOGS_step08_identify_TFBS.%j.log
+#SBATCH --error=LOGS_step08_identify_TFBS.%j.err
 
 # set env
 source ~/.zshrc
@@ -26,11 +26,11 @@ controls=../01_Peak_Analysis/STARR_CONTROL.enhancer_activity.bed
 motifs=./motif_databases/ARABD/ArabidopsisDAPv1.meme
 
 # extract fasta sequences
-#bedtools getfasta -bed $peaks -fi $ref -fo $peaks.fasta
+bedtools getfasta -bed $peaks -fi $ref -fo $peaks.fasta
 bedtools getfasta -bed $controls -fi $ref -fo $controls.fasta
 
 # identify putative TFBS
-#fimo --oc TFBS_peaks $motifs $peaks.fasta
+fimo --oc TFBS_peaks $motifs $peaks.fasta
 fimo --oc TFBS_controls $motifs $controls.fasta
 
 # reformat fimo output (filtering p-value > 1e-5) using the perl script provided in the github repository (/path/to/script)
