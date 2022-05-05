@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-# Computational Analysis of Maize Enhancer REgulatory Elements Using ATAC-STARR-seq
+# Computational Analysis of Maize Enhancer Regulatory Elements Using ATAC-STARR-seq
 
 The blueprints to development, response to the environment, and cellular function are largely the manifestation of distinct gene expression programs controlled by the spatiotemporal activity of cis-regulatory elements. Although biochemical methods for identifying accessible chromatin – a hallmark of cis-regulatory elements – have been developed, approaches capable of measuring and quantifying cis-regulatory activity are only beginning to be realized. Massively Parallel Reporter Assays coupled to chromatin accessibility profiling presents a high-throughput solution for testing the transcription activating capacity of millions of putatively regulatory DNA sequences. However, clear computational pipelines for analyzing these high-throughput sequencing-based reporter assays are lacking. In this protocol, I layout and rationalize a computational framework for the processing and analysis of Assay for Transposase Accessible Chromatin profiling followed by Self-Transcribed Active Regulatory Region sequencing (ATAC-STARR-seq) data from a recent study in Zea mays. The approach described herein can be adapted to other sequencing-based reporter assays and it largely agnostic to the model organism.   
 
