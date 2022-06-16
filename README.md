@@ -7,7 +7,7 @@ The blueprints to development, response to the environment, and cellular functio
 ![](graphs/Figure_2.png)
 
 ## Software dependencies
-[BWA MEM](http://bio-bwa.sourceforge.net/bwa.shtml)\
+[BWA MEM](http://bio-bwa.sourceforge.net/bwa.shtml) see install instructions [here](https://github.com/lh3/bwa)\
 [SAMtools](http://www.htslib.org)\
 [BEDtools](https://bedtools.readthedocs.io/en/latest/)\
 [SRA-toolkit](https://github.com/ncbi/sra-tools)\
