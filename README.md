@@ -120,6 +120,6 @@ Rscript eFDR_Filter_STARR_Peaks.R
 sbatch step07_plot_enhancer_activity.sh
 ```
 
-## Downstream analysis
-See the [paper](https://bio-protocol.org/default.aspx) for a downstream analysis use case.
+## Downstream analysis and expected results
+See the [paper](https://bio-protocol.org/default.aspx) for a downstream analysis and expected results.
 
